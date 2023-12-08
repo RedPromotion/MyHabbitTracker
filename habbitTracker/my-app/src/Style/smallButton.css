@@ -1,0 +1,31 @@
+/* 작은버튼 공통 */
+.smallButton {
+    width: 10%;
+    min-width: 70px;
+    height: 55px;
+    margin: 5px; 
+    background-color: #C0C0C0;
+    color: #000000;
+    font-size: 30px;
+    /*버튼 테두리 둥글고 연하게.*/
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-style: inset;
+}
+
+/* 작은버튼: 더하기 버튼 개별 설정 */
+#plusButton{
+    color: #ffffff;
+    background-color: #0000FF;
+}
+
+/* 작은버튼: 빼기 버튼 개별 설정 */
+#minusButton{
+    background-color: #C0C0C0;
+}
+
+/* 작은버튼: 같은 줄 삭제 버튼 개별 설정 */
+#deleteButton{
+    color: #ffffff;
+    background-color: #ff0000;
+}
